@@ -1,0 +1,28 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>
+    zomoto Order Page
+</title><link rel="style.css">
+
+    </head>
+    <body>
+        <h1>Welcome to zomato</h1>
+        <div id="menu">
+            <div class="item"></div><img src="zomatop.jpg" alt="zomato">
+            <h2>zomato Special burger</h2><p>300 Indian rs.</p>
+<button onclick="addtocart('zomato special burger',300)">Add to cart</button></div>
+<div class="item"></div><img src="burger.jpg" alt="zomato">
+<h2>zomato Special sandwich</h2>
+<p>300 Indian rs.</p>
+<button onclick="addtocart('zomato special sandwich',300)">Add to cart</button></div>
+<div class="item"></div><img src="sandwich.jpg" alt="zomato"><div id="cart">
+    <h2>cart</h2>
+    <ul id="cart-item"></ul>  <p id="total">total:rs.0</p>
+<button onclick="placeorder()"
+>place order</button>
+</div>
+
+        </div><script src="script.js"></script>
+    </body>
+</html>
